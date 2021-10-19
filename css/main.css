@@ -65,5 +65,16 @@ h3 {
     gap: 8vmin;
   }
 
+  h2 {
+    text-align: left;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  body {
+    margin-top: 2.4rem;
+  }
 
 }
