@@ -67,6 +67,7 @@ h3 {
 
   h2 {
     text-align: left;
+    margin: .5rem 0 1.5rem;
   }
 
   h1 {
@@ -75,6 +76,16 @@ h3 {
 
   body {
     margin-top: 2.4rem;
+  }
+
+  svg {
+    margin: auto;
+    width: 8rem;
+  }
+
+  a {
+    text-align: left;
+    padding: 0;
   }
 
 }
