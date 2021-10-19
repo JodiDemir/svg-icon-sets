@@ -1,9 +1,69 @@
 html {
   box-sizing: border-box;
+  font-family: Overpass, sans-serif;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  background-image: linear-gradient(#ff9500, #ff5e3a);
+  margin: 0;
+  padding: 0 6vmin 6vmin;
+  line-height: 1.5;
+  color: #fff;
+}
+
+svg {
+  width: 8rem;
+  margin-left: 5rem;
+}
+
+.icon {
+  fill: #fff;
+}
+
+div {
+  gap: 9vmin;
+  padding-bottom: 2.5rem;
+}
+
+a:hover {
+  color: #ff9500;
+  background-color: #fff;
+}
+
+a {
+  transition: all 250ms linear;
+  border: 2.4px solid rgba(255, 255, 255, .7);
+  padding: 1rem;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.125rem;
+}
+
+h1 {
+  text-align: left;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  font-size: 1rem;
+}
+
+@media only screen and (min-width: 38rem) {
+
+  section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 8vmin;
+  }
+
+
 }
