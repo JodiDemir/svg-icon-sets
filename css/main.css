@@ -24,6 +24,7 @@ svg {
 
 .icon {
   fill: #fff;
+  padding-left: .1rem;
 }
 
 div {
@@ -37,12 +38,12 @@ a:hover {
 }
 
 a {
-  transition: all 250ms linear;
   border: 2.4px solid rgba(255, 255, 255, .7);
-  padding: 1rem;
   color: #fff;
   text-decoration: none;
   font-size: 1.125rem;
+  padding: 1rem;
+  transition: all 250ms linear;
 }
 
 h1 {
